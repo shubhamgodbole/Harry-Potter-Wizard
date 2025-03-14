@@ -1,13 +1,78 @@
-# React + TypeScript + Vite
+# Harry Potter Wizard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web application built with React, TypeScript, and Vite. It provides an interactive platform for Harry Potter fans to explore various aspects of the wizarding world. The application features a responsive design, fast performance, and a rich user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive UI with React
+- Type-safe code with TypeScript
+- Fast development with Vite
+- ESLint integration for code quality
+- Hot Module Replacement (HMR) for a smooth development experience
 
-## Expanding the ESLint configuration
+## Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/harry-potter-wizard.git
+   cd harry-potter-wizard
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Project
+
+1. Start the development server:
+
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+2. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+### Building for Production
+
+To build the project for production, run:
+
+```sh
+npm run build
+# or
+yarn build
+```
+
+The output will be in the `dist` directory.
+
+### Linting
+
+To lint the project, run:
+
+```sh
+npm run lint
+# or
+yarn lint
+```
+
+## Expanding the ESLint Configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
